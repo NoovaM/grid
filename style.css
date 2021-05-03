@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    background-color:cornflowerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+}
+
+h1{
+    color: rgb(14, 46, 88);
+    padding: 18px 0px;
+    font-family: 'Paytone One', sans-serif;
+    
+}
+h1,h2,p{
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h2,p{
+   color: rgb(10, 94, 102);
+}
+
+h2{
+    padding-top: 40px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p{
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+
+section{
+    display: grid;
+    grid-template-columns:350px 350px 350px ;
+    grid-template-rows:350px 350px 350px ;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+body{
+    background-color: rgb(145, 213, 218);
+}
+
+section div{
+    border: 2px dashed rgb(116, 163, 177);
+    box-shadow: 5px 5px 4px rgb(20, 20, 31);
+    background-color: rgb(255, 255, 255);
+    transition: transform 1s;
+    margin-bottom: 25px;
+}
+
+div:hover {
+    transform: scale(1.2) rotate(360deg);
+  }
+
+section img{
+    height: 100%;
+    width: 100%;
+}
+
+.uno{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.dos{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+
+.tres{
+    grid-column: 3/3;
+    grid-row: 1/2;
+}
+.cuatro{
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+.cinco{
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+
+.seis{
+    grid-column: 3/3;
+    grid-row: 2/2;
+}
+
+.siete{
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+
+.ocho{
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+
+.nueve{
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
